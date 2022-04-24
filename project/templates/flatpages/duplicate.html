@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+<title>{{ flatpage.title }}</title>
+    <h1>{{ flatpage.title }}</h1>
+    <hr>
+</head>
+<body>
+{{ flatpage.content }}
+{{ flatpage.content }}
+</body>
+</html>
